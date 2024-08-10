@@ -1,0 +1,140 @@
+[2024-08-08T03:16:21.119+0000] {processor.py:161} INFO - Started process (PID=59) to work on /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:16:21.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shareprice_predict_dag.py for tasks to queue
+[2024-08-08T03:16:21.132+0000] {logging_mixin.py:188} INFO - [2024-08-08T03:16:21.132+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:16:24.119+0000] {logging_mixin.py:188} INFO - [2024-08-08T03:16:24.090+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/shareprice_predict_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/shareprice_predict_dag.py", line 9, in <module>
+    from tensorflow.keras.models import Sequential
+ModuleNotFoundError: No module named 'tensorflow'
+[2024-08-08T03:16:24.121+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:16:24.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shareprice_predict_dag.py took 3.124 seconds
+[2024-08-08T03:16:56.933+0000] {processor.py:161} INFO - Started process (PID=118) to work on /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:16:56.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shareprice_predict_dag.py for tasks to queue
+[2024-08-08T03:16:56.976+0000] {logging_mixin.py:188} INFO - [2024-08-08T03:16:56.968+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:17:05.208+0000] {logging_mixin.py:188} INFO - [2024-08-08T03:17:05.195+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/shareprice_predict_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/shareprice_predict_dag.py", line 9, in <module>
+    from tensorflow.keras.models import Sequential
+ModuleNotFoundError: No module named 'tensorflow'
+[2024-08-08T03:17:05.213+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:17:05.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shareprice_predict_dag.py took 8.314 seconds
+[2024-08-08T03:17:36.175+0000] {processor.py:161} INFO - Started process (PID=177) to work on /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:17:36.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shareprice_predict_dag.py for tasks to queue
+[2024-08-08T03:17:36.179+0000] {logging_mixin.py:188} INFO - [2024-08-08T03:17:36.179+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:17:36.650+0000] {logging_mixin.py:188} INFO - [2024-08-08T03:17:36.646+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/shareprice_predict_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/shareprice_predict_dag.py", line 9, in <module>
+    from tensorflow.keras.models import Sequential
+ModuleNotFoundError: No module named 'tensorflow'
+[2024-08-08T03:17:36.651+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:17:36.667+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shareprice_predict_dag.py took 0.499 seconds
+[2024-08-08T03:18:07.290+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:18:07.291+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shareprice_predict_dag.py for tasks to queue
+[2024-08-08T03:18:07.294+0000] {logging_mixin.py:188} INFO - [2024-08-08T03:18:07.293+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:18:07.734+0000] {logging_mixin.py:188} INFO - [2024-08-08T03:18:07.731+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/shareprice_predict_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/shareprice_predict_dag.py", line 9, in <module>
+    from tensorflow.keras.models import Sequential
+ModuleNotFoundError: No module named 'tensorflow'
+[2024-08-08T03:18:07.736+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:18:07.756+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shareprice_predict_dag.py took 0.471 seconds
+[2024-08-08T03:18:38.470+0000] {processor.py:161} INFO - Started process (PID=297) to work on /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:18:38.472+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shareprice_predict_dag.py for tasks to queue
+[2024-08-08T03:18:38.475+0000] {logging_mixin.py:188} INFO - [2024-08-08T03:18:38.474+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:18:38.972+0000] {logging_mixin.py:188} INFO - [2024-08-08T03:18:38.968+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/shareprice_predict_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/shareprice_predict_dag.py", line 9, in <module>
+    from tensorflow.keras.models import Sequential
+ModuleNotFoundError: No module named 'tensorflow'
+[2024-08-08T03:18:38.973+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:18:38.987+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shareprice_predict_dag.py took 0.524 seconds
+[2024-08-08T03:19:09.209+0000] {processor.py:161} INFO - Started process (PID=360) to work on /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:19:09.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shareprice_predict_dag.py for tasks to queue
+[2024-08-08T03:19:09.213+0000] {logging_mixin.py:188} INFO - [2024-08-08T03:19:09.212+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:19:09.705+0000] {logging_mixin.py:188} INFO - [2024-08-08T03:19:09.700+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/shareprice_predict_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/shareprice_predict_dag.py", line 9, in <module>
+    from tensorflow.keras.models import Sequential
+ModuleNotFoundError: No module named 'tensorflow'
+[2024-08-08T03:19:09.707+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:19:09.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shareprice_predict_dag.py took 0.595 seconds
+[2024-08-08T03:19:40.564+0000] {processor.py:161} INFO - Started process (PID=423) to work on /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:19:40.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shareprice_predict_dag.py for tasks to queue
+[2024-08-08T03:19:40.570+0000] {logging_mixin.py:188} INFO - [2024-08-08T03:19:40.569+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:19:41.821+0000] {logging_mixin.py:188} INFO - [2024-08-08T03:19:41.817+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/shareprice_predict_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/shareprice_predict_dag.py", line 9, in <module>
+    from tensorflow.keras.models import Sequential
+ModuleNotFoundError: No module named 'tensorflow'
+[2024-08-08T03:19:41.822+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:19:41.850+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shareprice_predict_dag.py took 1.296 seconds
+[2024-08-08T03:20:12.005+0000] {processor.py:161} INFO - Started process (PID=486) to work on /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:20:12.022+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shareprice_predict_dag.py for tasks to queue
+[2024-08-08T03:20:12.027+0000] {logging_mixin.py:188} INFO - [2024-08-08T03:20:12.026+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:20:12.728+0000] {logging_mixin.py:188} INFO - [2024-08-08T03:20:12.725+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/shareprice_predict_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/shareprice_predict_dag.py", line 9, in <module>
+    from tensorflow.keras.models import Sequential
+ModuleNotFoundError: No module named 'tensorflow'
+[2024-08-08T03:20:12.729+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:20:12.753+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shareprice_predict_dag.py took 0.755 seconds
+[2024-08-08T03:20:43.167+0000] {processor.py:161} INFO - Started process (PID=549) to work on /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:20:43.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shareprice_predict_dag.py for tasks to queue
+[2024-08-08T03:20:43.184+0000] {logging_mixin.py:188} INFO - [2024-08-08T03:20:43.184+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:20:43.661+0000] {logging_mixin.py:188} INFO - [2024-08-08T03:20:43.657+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/shareprice_predict_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/shareprice_predict_dag.py", line 9, in <module>
+    from tensorflow.keras.models import Sequential
+ModuleNotFoundError: No module named 'tensorflow'
+[2024-08-08T03:20:43.667+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:20:43.690+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shareprice_predict_dag.py took 0.529 seconds
+[2024-08-08T03:21:14.425+0000] {processor.py:161} INFO - Started process (PID=609) to work on /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:21:14.427+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shareprice_predict_dag.py for tasks to queue
+[2024-08-08T03:21:14.428+0000] {logging_mixin.py:188} INFO - [2024-08-08T03:21:14.428+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:21:14.944+0000] {logging_mixin.py:188} INFO - [2024-08-08T03:21:14.938+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/shareprice_predict_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/shareprice_predict_dag.py", line 9, in <module>
+    from tensorflow.keras.models import Sequential
+ModuleNotFoundError: No module named 'tensorflow'
+[2024-08-08T03:21:14.945+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/shareprice_predict_dag.py
+[2024-08-08T03:21:14.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shareprice_predict_dag.py took 0.546 seconds

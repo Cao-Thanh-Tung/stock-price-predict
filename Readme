@@ -1,0 +1,11 @@
+Cách chạy dự án:
+
+Bước 1: Tải chương trình docker desktop
+
+Bước 2: Thực hiện lệnh docker compose up airflow-init để khởi tạo database.
+
+Bước 3: Thực hiện lệnh docker compose up (Tốn 3-5 phút).
+
+Bước 4: Thực hiện thay đổi dòng "SendGrid Token Key" ở dòng số 120 file dags/shareprice_predict_dag.py thành key của bạn.
+
+Bước 5: Truy cập vào trang web: http://localhost:8080. Nhập tài khoản và mật khẩu là airflow.
